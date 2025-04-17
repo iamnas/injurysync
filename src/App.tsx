@@ -1,11 +1,11 @@
-import Header from "./components/Header"
+import { LandingPage } from "./components/LandingPage"
+// import NavigationBar from "./components/NavigationBar"
 
 function App() {
 
   return (
     <>
-
-      <Header />
+      <LandingPage />
 
     </>
   )
