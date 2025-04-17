@@ -14,46 +14,7 @@ export function ContactSection() {
 
   return (
     <section className="flex flex-col lg:flex-row gap-8 lg:gap-16 justify-center items-center lg:items-start px-4 sm:px-6 lg:px-28 py-12 lg:py-20 bg-white">
-      {/* <div className="w-full max-w-md lg:max-w-lg ">
-        <div className="w-full flex flex-col justify-center items-center ">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight text-gray-900">
-            Contact us
-          </h2>
-          <p className="  mt-4 text-base tracking-normal leading-6 text-slate-600">
-            Contact us today to schedule a consultation and discover how we can
-            help you achieve your goals.
-          </p>
-        </div>
-        <div className="mt-8 w-full text-lg sm:text-xl leading-tight text-slate-600">
-          <div className="flex gap-2 items-center w-full">
-            <img
-              src="frame.png"
-              alt="Phone icon"
-              className="object-contain w-6 h-6 sm:w-7 sm:h-7 aspect-square"
-            />
-            <a
-              href="tel:+10000000000"
-              className="self-stretch my-auto hover:text-indigo-600"
-            >
-              (+1) 000 0000 000
-            </a>
-          </div>
-          <div className="flex gap-2 items-center mt-6 w-full">
-            <img
-              src="mail.png"
-              alt="Email icon"
-              className="object-contain w-6 h-6 sm:w-7 sm:h-7 aspect-square"
-            />
-            <a
-              href="mailto:mail@injuy-sync.com"
-              className="self-stretch my-auto hover:text-indigo-600 break-all"
-            >
-              mail@injuy-sync.com
-            </a>
-          </div>
-        </div>
-      </div>
-       */}
+      
       <div className="w-full max-w-md lg:max-w-lg">
         <div className="w-full text-center lg:text-left">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight text-gray-900">
