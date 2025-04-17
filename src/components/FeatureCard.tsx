@@ -8,7 +8,7 @@ interface FeatureCardProps {
 
 export default function FeatureCard({ title, description }: FeatureCardProps) {
     return (
-        <article className="flex flex-col items-start w-full">
+        <article className="flex flex-col items-center w-full">
             <h3 className="text-2xl font-semibold leading-tight text-gray-900">
                 {title}
             </h3>
