@@ -21,10 +21,14 @@ export function ContactSection() {
             Contact us
           </h2>
           <p className="mt-4 text-base tracking-normal leading-6 text-slate-600 max-md:max-w-full">
-            Ready to transform your practice with custom solutions? <br />
+              Ready to transform your practice with custom solutions? <br />
             Contact us today to schedule a consultation and discover how we can
             help you achieve your goals.
           </p>
+          {/* mobile  */}
+          {/* <p>
+          Contact us today to schedule a consultation and discover how we can help you achieve your goals.
+          </p> */}
         </div>
         <div className="mt-8 w-full text-xl leading-tight min-w-[343px] text-slate-600 max-md:max-w-full">
           <div className="flex flex-wrap gap-2 items-center w-full max-md:max-w-full">

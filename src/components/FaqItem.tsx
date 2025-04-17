@@ -22,7 +22,7 @@ export function FaqItem({ question, answer }: FaqItemProps) {
         </h3>
         <div className="flex gap-2.5 items-center self-stretch p-1 my-auto w-7 h-7 bg-gray-900 rounded-[999px]">
           <img
-            src={isOpen ? "minus icon.png":"plus_icon.png"}
+            src={isOpen ? "minus_icon.png":"plus_icon.png"}
             alt={isOpen ? "Close" : "Open"}
             className="object-contain self-stretch my-auto w-5 aspect-square"
           />
