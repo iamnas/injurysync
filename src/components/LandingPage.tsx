@@ -7,6 +7,7 @@ import { FaqSection } from "./FaqSection";
 import { ContactSection } from "./ContactSection";
 import { CtaSection } from "./CtaSection";
 import { Footer } from "./Footer";
+import FeaturesSectionV2 from "./FeaturesSectionV2";
 
 export function LandingPage() {
   return (
@@ -14,6 +15,7 @@ export function LandingPage() {
       <Navigation />
       <HeroSection />
       <FeaturesSection />
+      <FeaturesSectionV2 />
       <PricingSection />
       <FaqSection />
       <ContactSection />

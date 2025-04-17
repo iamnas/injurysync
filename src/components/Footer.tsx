@@ -2,12 +2,12 @@ export function Footer() {
   return (
     <footer className="px-28 py-20 mt-20 w-full bg-indigo-50 max-md:px-5 max-md:mt-10 max-md:max-w-full">
       <div className="flex flex-wrap gap-36 items-start w-full max-md:max-w-full">
-        <div className="flex flex-col items-start min-w-60 w-[280px]">
-          <div className="flex gap-3 items-center">
+        <div className="flex flex-col items-start justify-start min-w-60 w-[280px]">
+          <div className="flex gap-3 items-center ">
             <img
-              src="footer_logo.png"
+              src="Logo.png"
               alt="Company Logo"
-              className="object-contain self-stretch my-auto aspect-[8.77] w-[210px]"
+              className="object-contain self-stretch my-auto aspect-[8.77] w-[210px] "
             />
           </div>
           <p className="self-stretch mt-4 text-sm leading-6 text-slate-600">
@@ -16,7 +16,7 @@ export function Footer() {
             efficiently and securely.
           </p>
           <div className="flex gap-3 items-center mt-4">
-          <a href="#" aria-label="Twitter">
+            <a href="#" aria-label="Twitter">
               <img
                 src="X.png"
                 alt="Twitter"
@@ -46,17 +46,17 @@ export function Footer() {
             <h3 className="font-medium">Quick Links</h3>
             <ul className="mt-4 w-full">
               <li className="py-2">
-                <a href="#" className="hover:text-indigo-500">
+                <a href="#" className="hover:text-[#465FFF]">
                   Home
                 </a>
               </li>
               <li className="py-2 mt-2.5">
-                <a href="#" className="hover:text-indigo-500">
+                <a href="#" className="hover:text-[#465FFF]">
                   Custom Solutions
                 </a>
               </li>
               <li className="py-2 mt-2.5">
-                <a href="#" className="hover:text-indigo-500">
+                <a href="#" className="hover:text-[#465FFF]">
                   Our Providers
                 </a>
               </li>
@@ -66,12 +66,12 @@ export function Footer() {
             <h3 className="font-medium">Our Providers</h3>
             <ul className="mt-4 w-full whitespace-nowrap">
               <li className="py-2">
-                <a href="#" className="hover:text-indigo-500">
+                <a href="#" className="hover:text-[#465FFF]">
                   Doctors
                 </a>
               </li>
               <li className="py-2 mt-2.5">
-                <a href="#" className="hover:text-indigo-500">
+                <a href="#" className="hover:text-[#465FFF]">
                   Attorneys
                 </a>
               </li>
@@ -81,17 +81,17 @@ export function Footer() {
             <h3 className="font-medium">Support & Legal</h3>
             <ul className="mt-4 w-full">
               <li className="py-2">
-                <a href="#" className="hover:text-indigo-500">
+                <a href="#" className="hover:text-[#465FFF]">
                   Security
                 </a>
               </li>
               <li className="py-2 mt-2.5">
-                <a href="#" className="hover:text-indigo-500">
+                <a href="#" className="hover:text-[#465FFF]">
                   Privacy Policy
                 </a>
               </li>
               <li className="py-2 mt-2.5">
-                <a href="#" className="hover:text-indigo-500">
+                <a href="#" className="hover:text-[#465FFF]">
                   End User Terms of Service
                 </a>
               </li>

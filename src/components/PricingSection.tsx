@@ -22,7 +22,7 @@ export function PricingSection() {
           <button
             className={`gap-2.5 self-stretch px-3 py-1.5 my-auto rounded-[999px] ${
               billingCycle === "monthly"
-                ? "bg-indigo-500 text-white"
+                ? "bg-[#465FFF] text-white"
                 : "text-slate-600"
             }`}
             onClick={() => setBillingCycle("monthly")}
@@ -32,14 +32,14 @@ export function PricingSection() {
           <button
             className={`flex gap-1 justify-center items-center self-stretch px-3 py-1.5 my-auto rounded-[999px] ${
               billingCycle === "yearly"
-                ? "bg-indigo-500 text-white"
+                ? "bg-[#465FFF] text-white"
                 : "text-slate-600"
             }`}
             onClick={() => setBillingCycle("yearly")}
           >
             <span>Yearly</span>
             {billingCycle === "yearly" && (
-              <span className="gap-2.5 px-1 py-0.5 text-indigo-500 bg-gray-50 rounded-lg">
+              <span className="gap-2.5 px-1 py-0.5 text-[#465FFF] bg-gray-50 rounded-lg">
                 20%
               </span>
             )}

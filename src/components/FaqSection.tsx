@@ -69,7 +69,7 @@ export function FaqSection() {
             </p>
           </div>
           <div className="flex gap-4 justify-center items-start pt-4 mt-4 w-full text-sm font-medium leading-5 text-white max-md:max-w-full">
-            <button className="overflow-hidden gap-2 self-stretch px-8 py-3.5 bg-indigo-500 rounded-lg shadow-sm max-md:px-5">
+            <button className="overflow-hidden gap-2 self-stretch px-8 py-3.5 bg-[#465FFF] rounded-lg shadow-sm max-md:px-5">
               Contact us
             </button>
           </div>

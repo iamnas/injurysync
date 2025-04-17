@@ -16,13 +16,13 @@ export function PricingCard({
   isPopular = false,
 }: PricingCardProps) {
   const cardClass = isPopular
-    ? "flex overflow-hidden gap-2.5 items-start self-stretch px-6 py-7 my-auto w-96 bg-indigo-500 rounded-2xl shadow-lg min-h-[491px] min-w-60 max-md:px-5"
+    ? "flex overflow-hidden gap-2.5 items-start self-stretch px-6 py-7 my-auto w-96 bg-[#465FFF] rounded-2xl shadow-lg min-h-[491px] min-w-60 max-md:px-5"
     : "flex overflow-hidden gap-2.5 items-start self-stretch px-6 py-7 my-auto w-96 bg-white rounded-2xl shadow-sm min-h-[491px] min-w-60 max-md:px-5";
 
   const textColorClass = isPopular ? "text-white" : "text-gray-900";
   const buttonClass = isPopular
-    ? "overflow-hidden gap-2 self-stretch px-4 py-3 mt-10 w-full text-sm font-medium leading-none text-indigo-500 bg-white rounded-lg"
-    : "overflow-hidden gap-2 self-stretch px-4 py-3 mt-10 w-full text-sm font-medium leading-none text-white bg-indigo-500 rounded-lg border border-indigo-500 border-solid shadow-sm";
+    ? "overflow-hidden gap-2 self-stretch px-4 py-3 mt-10 w-full text-sm font-medium leading-none text-[#465FFF] bg-white rounded-lg"
+    : "overflow-hidden gap-2 self-stretch px-4 py-3 mt-10 w-full text-sm font-medium leading-none text-white bg-[#465FFF] rounded-lg border border-[#465FFF] border-solid shadow-sm";
 
   return (
     <div className={cardClass}>
@@ -38,7 +38,7 @@ export function PricingCard({
                     {title}
                   </h3>
                   {isPopular && (
-                    <span className="gap-2.5 self-stretch px-3 py-1.5 my-auto text-base text-indigo-500 bg-white rounded-[40px] shadow-[0px_4px_34px_rgba(0,0,0,0.1)]">
+                    <span className="gap-2.5 self-stretch px-3 py-1.5 my-auto text-base text-[#465FFF] bg-white rounded-[40px] shadow-[0px_4px_34px_rgba(0,0,0,0.1)]">
                       Most Popular
                     </span>
                   )}
@@ -51,7 +51,7 @@ export function PricingCard({
               </div>
               <div className="mt-6 w-32 max-w-full">
                 <div
-                  className={`flex gap-1 w-full font-semibold ${isPopular ? "text-white" : "text-indigo-500"} whitespace-nowrap rounded-none`}
+                  className={`flex gap-1 w-full font-semibold ${isPopular ? "text-white" : "text-[#465FFF]"} whitespace-nowrap rounded-none`}
                 >
                   {typeof price === "number" ? (
                     <>
