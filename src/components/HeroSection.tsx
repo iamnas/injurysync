@@ -33,11 +33,11 @@ export function HeroSection() {
             </button>
           </div>
         </div>
-        <img
+        {/* <img
           src="background.png"
           alt="Hero illustration"
           className="object-contain w-full mt-8 md:mt-0 aspect-auto md:aspect-[14.93] max-w-full"
-        />
+        /> */}
       </div>
       <div className="flex flex-col items-center self-center max-w-full min-h-[300px] md:min-h-[616px] w-full px-4 md:px-0 md:w-[1049px] mt-4 md:mt-0">
         <div className="flex flex-col justify-center items-center p-2 md:p-3 w-full bg-gray-100 rounded-xl md:rounded-2xl min-h-[300px] md:min-h-[616px]">
