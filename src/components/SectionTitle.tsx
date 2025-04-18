@@ -1,11 +1,11 @@
 export default function SectionTitle() {
     return (
         <header className="flex flex-col max-w-full text-center w-[768px]">
-            <h2 className="self-cente  text-base font-bold text-indigo-500">
+            <h2 className="self-center  text-base font-bold text-indigo-500">
                 FEATURES
             </h2>
             <div className="flex  flex-col justify-center items-center mt-4 w-full max-md:max-w-full">
-                <h1 className="text-5xl  font-black text-gray-900 leading-[62px] max-md:max-w-full  max-md:text-3xl max-md:leading-[58px]">
+                <h1 className="text-5xl  font-black text-gray-900 leading-[62px] max-md:max-w-full  max-md:text-4xl max-md:leading-10">
                     <span
                         style={{
                             fontFamily:
