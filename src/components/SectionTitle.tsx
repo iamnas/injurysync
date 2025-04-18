@@ -5,7 +5,7 @@ export default function SectionTitle() {
                 FEATURES
             </h2>
             <div className="flex flex-col justify-center items-center mt-4 w-full max-md:max-w-full">
-                <h1 className="text-5xl font-extrabold text-gray-900 leading-[62px] max-md:max-w-full max-md:text-3xl max-md:leading-[58px]">
+                <h1 className="text-5xl font-extrabold text-gray-900 leading-[62px] max-md:max-w-full max-md:font-bold max-md:text-3xl max-md:leading-[58px]">
                     <span
                         style={{
                             fontFamily:
@@ -32,6 +32,7 @@ export default function SectionTitle() {
                         {" "}
                         Hate About{" "}
                     </span>
+                    <br className="hidden md:block" />
                     <span
                         style={{
                             fontFamily:

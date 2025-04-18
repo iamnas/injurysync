@@ -46,7 +46,7 @@ export function PricingSection() {
           </button>
         </div>
       </div>
-      <div className="flex flex-wrap gap-8 items-center mt-16 max-md:mt-10 max-md:max-w-full">
+      <div className="flex justify-center flex-wrap gap-8 items-center mt-16 max-md:mt-10 max-md:max-w-full">
         <PricingCard
           title="Basic Plan"
           description="Ideal for small practices with low lien volume."

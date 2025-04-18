@@ -8,6 +8,7 @@ export function HeroSection() {
               <span className="text-[#101828]">Your New </span>
               <span className="text-[#465FFF]">Legal</span>
               <span className="text-[#101828]"> Teammates – </span>
+              <br className="hidden md:block" />
               <span className="text-[#465FFF]">AI </span>
               <span className="text-[#101828]">Agents</span>
               <span className="text-[#101828]"> Built for Law Firms</span>

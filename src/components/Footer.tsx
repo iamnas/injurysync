@@ -3,11 +3,11 @@ export function Footer() {
     <footer className="px-28 py-20 mt-20 w-full bg-indigo-50 max-md:px-5 max-md:mt-10 max-md:max-w-full">
       <div className="flex flex-wrap gap-36 items-start w-full max-md:max-w-full">
         <div className="flex flex-col items-start justify-start min-w-60 w-[280px]">
-          <div className="flex gap-3 items-center ">
+          <div className="flex gap-3 justify-end items-end">
             <img
               src="Logo.png"
               alt="Company Logo"
-              className="object-contain self-stretch my-auto aspect-[8.77] w-[210px] "
+              className="object-contain self-stretch my-auto  w-[210px] "
             />
           </div>
           <p className="self-stretch mt-4 text-sm leading-6 text-slate-600">

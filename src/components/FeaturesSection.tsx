@@ -27,6 +27,7 @@ export function FeaturesSection() {
         <div className="flex flex-col items-center mt-4 w-full">
           <h3 className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight md:leading-[62px]">
             Everything <span className="text-[#465FFF]">You</span> Hate About{" "}
+            <br className="hidden md:block" />
             <span className="text-[#465FFF]">Pre Lit Intake</span>—Solved
           </h3>
           <p className="mt-4 text-base md:text-lg text-slate-600 leading-relaxed">
