@@ -141,12 +141,13 @@ export function ContactSection() {
       
       <div className="w-full max-w-md lg:max-w-lg">
         <div className="w-full text-center lg:text-left">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight text-gray-900">
+          <h2 className="font-[Montserrat] text-3xl sm:text-3xl lg:text-5xl font-semibold leading-tight text-gray-900">
             Contact us
           </h2>
           <p className="mt-4 text-base tracking-normal leading-6 text-slate-600">
-            Contact us today to schedule a consultation and discover how we can
-            help you achieve your goals.
+          {/* Ready to transform your practice with custom solutions? 
+          <br/> */}
+          Contact us today to schedule a consultation and discover how we can help you achieve your goals.
           </p>
         </div>
         <div className="mt-8 w-full text-lg sm:text-xl leading-tight text-slate-600">

@@ -32,7 +32,7 @@ export function FaqSection() {
   return (
     <section className="flex flex-col items-center px-28 py-20 w-full bg-gray-50 max-md:px-5 max-md:max-w-full">
       <div className="max-w-full text-center w-[768px]">
-        <h2 className="text-5xl font-semibold leading-tight text-gray-900 max-md:max-w-full max-md:text-4xl">
+        <h2 className="text-3xl sm:text-3xl lg:text-5xl font-semibold leading-tight text-gray-900 max-md:max-w-full max-md:text-4xl">
           Frequently Asked Questions
         </h2>
         <p className="mt-4 text-lg text-slate-600 max-md:max-w-full">
