@@ -25,7 +25,7 @@ export function PricingCard({
     : "overflow-hidden gap-2 self-stretch px-4 py-3 mt-10 w-full text-sm font-medium leading-none text-white bg-[#465FFF] rounded-lg border border-[#465FFF] border-solid shadow-sm";
 
   return (
-    <div className={cardClass}>
+    <div className={`${cardClass}` }>
       <div className="flex-1 shrink w-full basis-0 min-w-60">
         <div className="w-full">
           <div className="flex flex-col items-center w-full">
@@ -33,7 +33,7 @@ export function PricingCard({
               <div className="flex flex-col w-full max-w-[332px]">
                 <div className="flex gap-3 items-center self-start">
                   <h3
-                    className={`text-2xl font-semibold text-center ${textColorClass}`}
+                    className={`font-[Montserrat] text-2xl font-semibold text-center ${textColorClass}`}
                   >
                     {title}
                   </h3>

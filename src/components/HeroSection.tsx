@@ -12,12 +12,12 @@ export function HeroSection() {
           />
         </div>
       </div> */}
-      
+
       {/* Main Content */}
       <div className="flex flex-col pt-12 md:pt-20 w-full bg-[#ECF3FF] md:h-[475px] max-md:h-auto relative z-10">
         <div className="flex flex-col items-center self-center max-w-full w-[1024px] px-5 md:px-8">
           <div className="flex flex-col items-center w-full text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-black leading-[1.1] md:leading-[67px]">
+            <h1 className="font-[Montserrat] text-4xl md:text-6xl font-bold text-black leading-[1.1] md:leading-[67px]">
               <span className="text-[#101828]">Your New </span>
               <span className="text-[#465FFF]">Legal</span>
               <span className="text-[#101828]"> Teammates – </span>
@@ -26,24 +26,41 @@ export function HeroSection() {
               <span className="text-[#101828]">Agents</span>
               <span className="text-[#101828]"> Built for Law Firms</span>
             </h1>
-            <p className="mt-4 md:mt-6 text-base md:text-lg leading-6 md:leading-7 text-slate-600 w-full md:w-[768px]">
+            <p className="font-[Source_Sans_3] text-center mt-4 md:mt-6 text-base md:text-lg leading-6 md:leading-7 text-[#475467] w-full md:w-[768px]">
               Case Pilot delivers smart automation tools that eliminate
               busywork, capture every opportunity, and simplify case management
               for plaintiff-side law firms.
             </p>
+
+
           </div>
           <div className="flex flex-col md:flex-row gap-3 md:gap-4 justify-center items-center w-full pt-4 mt-4 md:mt-6 text-sm font-medium leading-none">
-            <button className="cursor-pointer w-full md:w-auto overflow-hidden gap-2 h-12 self-stretch px-5 md:px-7 py-3.5 my-auto text-white bg-[#465fff] rounded-lg shadow-[0px_4px_16px_1px_rgba(70,95,255,0.24)] hover:bg-[#3641F5] hover:shadow-none transition-all">
+            {/* <button className="cursor-pointer w-full md:w-auto overflow-hidden gap-2 h-12 self-stretch px-5 md:px-7 py-3.5 my-auto text-white bg-[#465fff] rounded-lg shadow-[0px_4px_16px_1px_rgba(70,95,255,0.24)] hover:bg-[#3641F5] hover:shadow-none transition-all">
+              Get Started
+            </button> */}
+            <button
+              className="w-[180px] h-12 gap-2 px-7 py-3.5 rounded-lg bg-[#465fff] text-white shadow-[0px_4px_16px_1px_rgba(70,95,255,0.24)] hover:bg-[#3641F5] hover:shadow-none transition-all text-center font-semibold"
+            >
               Get Started
             </button>
-            <button className="w-full cursor-pointer md:w-auto flex overflow-hidden gap-2 justify-center items-center self-stretch h-12 py-3.5 px-5 md:px-7 my-auto bg-gray-50 rounded-lg shadow-sm text-slate-700 hover:bg-[#F9FAFB] transition-colors">
+
+            {/* <button className="w-full cursor-pointer md:w-auto flex overflow-hidden gap-2 justify-center items-center self-stretch h-12 py-3.5 px-5 md:px-7 my-auto bg-gray-50 rounded-lg shadow-sm text-slate-700 hover:bg-[#F9FAFB] transition-colors">
               <img
                 src="play.png"
                 alt="Demo icon"
                 className="object-contain shrink-0 self-stretch my-auto w-5 aspect-square"
               />
               <span>Book a Demo</span>
+            </button> */}
+            <button className="w-[181px] h-12 flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg border border-gray-100 bg-gray-50 text-slate-700 shadow-sm hover:bg-[#F9FAFB] transition-colors">
+              <img
+                src="play.png"
+                alt="Demo icon"
+                className="w-5 aspect-square object-contain"
+              />
+              <span>Book a Demo</span>
             </button>
+
           </div>
         </div>
         {/* Uncommented the background illustration for consistency */}

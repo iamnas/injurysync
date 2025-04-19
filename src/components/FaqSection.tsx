@@ -32,10 +32,10 @@ export function FaqSection() {
   return (
     <section className="flex flex-col items-center px-28 py-20 w-full bg-gray-50 max-md:px-5 max-md:max-w-full">
       <div className="max-w-full text-center w-[768px]">
-        <h2 className="text-3xl sm:text-3xl lg:text-5xl font-semibold leading-tight text-gray-900 max-md:max-w-full max-md:text-4xl">
+        <h2 className="font-[Montserrat] text-3xl sm:text-3xl lg:text-5xl font-semibold leading-tight text-gray-900 max-md:max-w-full max-md:text-4xl">
           Frequently Asked Questions
         </h2>
-        <p className="mt-4 text-lg text-slate-600 max-md:max-w-full">
+        <p className="font-[Source_Sans_3] mt-4 text-lg text-[#475467] max-md:max-w-full">
           Get answers to commonly asked questions.
         </p>
       </div>
@@ -60,10 +60,10 @@ export function FaqSection() {
         />
         <div className="mt-8 w-full max-md:max-w-full">
           <div className="w-full leading-snug text-center max-md:max-w-full">
-            <h3 className="text-2xl font-semibold text-gray-900 max-md:max-w-full">
+            <h3 className="font-[Montserrat] text-2xl font-semibold text-gray-900 max-md:max-w-full">
               Still have questions?
             </h3>
-            <p className="mt-2 text-lg text-slate-600 max-md:max-w-full">
+            <p className="font-[Source_Sans_3] mt-2 text-lg text-slate-600 max-md:max-w-full">
               Can't find the answer you're looking for? Please chat to our
               friendly team.
             </p>

@@ -3,10 +3,15 @@ export function CtaSection() {
     <div className="flex justify-center items-center px-4 w-full max-w-full">
       <section className="flex relative flex-col items-start self-center px-28 py-20 mt-20 w-full bg-[#465FFF] rounded-2xl max-w-[1216px] max-md:px-5 max-md:mt-10 max-md:max-w-full">
         <div className="flex z-0 flex-col items-center self-center max-w-full w-[768px]">
-          <h2 className="text-5xl font-bold text-center text-gray-50 leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
+          {/* <h2 className="text-5xl font-bold text-center text-gray-50 leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
             Ready to Automate Your Practice?Book your demo today and meet the AI
             agents built to power the modern law firm.
+          </h2> */}
+          <h2 className="font-montserrat text-5xl font-bold text-center text-gray-50 leading-[58px] max-md:max-w-full max-md:text-[30px] max-md:leading-[54px]">
+            Ready to Automate Your Practice? Book your demo today and meet the AI
+            agents built to power the modern law firm.
           </h2>
+
           <p className="mt-6 text-lg text-center text-white max-md:max-w-full">
             Experience the future of client intake with Caseflow. Schedule a demo
             and see it in action!

@@ -11,10 +11,10 @@ export function PricingSection() {
     <section className="flex flex-col gap-16 items-center px-28 py-20 w-full bg-white max-md:px-5 max-md:max-w-full">
       <div className="flex flex-col max-w-full text-center w-[768px]">
         <div className="flex flex-col justify-center items-center w-full max-md:max-w-full">
-          <h2 className="text-5xl font-semibold leading-tight text-gray-900 max-md:max-w-full max-md:text-4xl">
+          <h2 className="font-[Montserrat] text-5xl font-semibold leading-tight text-gray-900 max-md:max-w-full max-md:text-4xl">
             Pricing That Works for You
           </h2>
-          <p className="mt-4 text-base tracking-normal text-slate-600 max-md:max-w-full">
+          <p className="font-[Source_Sans_3] mt-4 font-normal text-base tracking-normal text-slate-600 max-md:max-w-full">
             Our pricing plans are designed to accommodate your requirements.
           </p>
         </div>

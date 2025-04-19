@@ -64,7 +64,7 @@
 export default function SectionTitle() {
     return (
       <header className="flex flex-col max-w-full text-center w-[768px]">
-        <h2 className="self-center text-base font-bold text-indigo-500 font-[Montserrat]">
+        <h2 className="font-[Montserrat] text-base font-semibold text-[#465FFF] tracking-wide">
           FEATURES
         </h2>
         <div className="flex flex-col justify-center items-center mt-4 w-full max-md:max-w-full">
@@ -79,7 +79,7 @@ export default function SectionTitle() {
           </h1>
 
 
-          <p className="mt-6 text-base leading-6 text-slate-600 max-md:max-w-full font-[Source_Sans_Pro]">
+          <p className="mt-6 text-base leading-6 text-slate-600 max-md:max-w-full font-[Source_Sans_3]">
             Let InjurySync streamline your workflow with AI-driven automation.
           </p>
         </div>

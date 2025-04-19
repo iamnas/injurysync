@@ -14,7 +14,7 @@
 
 //   return (
 //     <section className="flex flex-col lg:flex-row gap-8 lg:gap-16 justify-center items-center lg:items-start px-4 sm:px-6 lg:px-28 py-12 lg:py-20 bg-white">
-      
+
 //       <div className="w-full max-w-md lg:max-w-lg">
 //         <div className="w-full text-center lg:text-left">
 //           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight text-gray-900">
@@ -138,20 +138,21 @@ export function ContactSection() {
 
   return (
     <section className="flex flex-col lg:flex-row gap-8 lg:gap-16 justify-center items-center lg:items-start px-4 sm:px-6 lg:px-28 py-12 lg:py-20 bg-white">
-      
+
       <div className="w-full max-w-md lg:max-w-lg">
         <div className="w-full text-center lg:text-left">
           <h2 className="font-[Montserrat] text-3xl sm:text-3xl lg:text-5xl font-semibold leading-tight text-gray-900">
             Contact us
           </h2>
-          <p className="mt-4 text-base tracking-normal leading-6 text-slate-600">
-          {/* Ready to transform your practice with custom solutions? 
-          <br/> */}
-          Contact us today to schedule a consultation and discover how we can help you achieve your goals.
+        
+          <p className="font-[Source_Sans_3] mt-4 text-base tracking-[0.01em] leading-6 text-slate-600">
+            Ready to transform your practice with custom solutions?
+            Contact us today to schedule a consultation and discover how we can help you achieve your goals.
           </p>
+
         </div>
         <div className="mt-8 w-full text-lg sm:text-xl leading-tight text-slate-600">
-          <div className="flex gap-2 items-center w-full justify-center lg:justify-start">
+          <div className="font-[Source_Sans_3] flex gap-2 items-center w-full justify-center lg:justify-start">
             <img
               src="frame.png"
               alt="Phone icon"
@@ -172,7 +173,7 @@ export function ContactSection() {
             />
             <a
               href="mailto:mail@injuy-sync.com"
-              className="self-stretch my-auto hover:text-indigo-600 break-all"
+              className="font-[Source_Sans_3] self-stretch my-auto hover:text-indigo-600 break-all"
             >
               mail@injuy-sync.com
             </a>
@@ -183,8 +184,8 @@ export function ContactSection() {
         onSubmit={handleSubmit}
         className="w-full max-w-md lg:max-w-lg text-sm leading-none"
       >
-        <div className="w-full">
-          <label className="font-medium text-slate-700" htmlFor="fullName">
+        <div className="w-full font-[Montserrat]">
+          <label className=" font-medium text-slate-700" htmlFor="fullName">
             Full Name
           </label>
           <input
