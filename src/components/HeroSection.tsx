@@ -209,7 +209,7 @@
 //           bg-contain bg-no-repeat
 //           z-11
 //           hidden md:block
-          
+
 //         "
 //         />
 
@@ -369,7 +369,7 @@ export function HeroSection() {
             z-10
           "
         />
-        
+
         {/* Left band image - Scaled for mobile */}
         <div
           className="
@@ -382,17 +382,17 @@ export function HeroSection() {
             bg-contain bg-no-repeat
             z-11
             hidden md:block
-          "
+            "
         />
-        
+
         {/* Left band 2 - Scaled for mobile */}
         <div
           className="
             absolute
             w-[200px] md:w-[466.67px] 
             h-[60px] md:h-[129.46px] 
-            top-[440px] md:top-[812.62px] 
-            left-[-80px] md:left-[1px]
+            top-[480px] md:top-[812.62px] 
+            left-[-10px] md:left-[1px]
             bg-[url('/leftband2.png')] 
             bg-contain bg-no-repeat
             z-11
@@ -406,7 +406,7 @@ export function HeroSection() {
             w-[200px] md:w-[466.67px] 
             h-[60px] md:h-[129.46px] 
             top-[410px] md:top-[410px] 
-            right-[-60px] md:left-[1400px]
+            right-[-185px] md:left-[1400px]
             bg-[url('/rightband1.png')] 
             bg-contain bg-no-repeat
             z-25
@@ -420,7 +420,7 @@ export function HeroSection() {
             w-[240px] md:w-[680px] 
             h-[70px] md:h-[156.45px] 
             top-[430px] md:top-[470px] 
-            right-[-100px] md:left-[1240px]
+            right-[-220px] md:left-[1240px]
             bg-[url('/rightband2.png')] 
             bg-contain bg-no-repeat
             z-11
