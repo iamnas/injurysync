@@ -21,8 +21,8 @@ export function PricingCard({
 
   const textColorClass = isPopular ? "text-white" : "text-gray-900";
   const buttonClass = isPopular
-    ? "overflow-hidden gap-2 self-stretch px-4 py-3 mt-10 w-full text-sm font-medium leading-none text-[#465FFF] bg-white rounded-lg"
-    : "overflow-hidden gap-2 self-stretch px-4 py-3 mt-10 w-full text-sm font-medium leading-none text-white bg-[#465FFF] rounded-lg border border-[#465FFF] border-solid shadow-sm";
+    ? "  hover:border-[#E4E7EC] hover:border-1 hover:text-white  hover:bg-[#465FFF] overflow-hidden gap-2 self-stretch px-4 py-3 mt-10 w-full text-sm font-medium leading-none text-[#465FFF] bg-white rounded-lg"
+    : "shadow-[0px_4px_16px_1px_rgba(70,95,255,0.24)] hover:bg-[#3641F5] hover:shadow-none overflow-hidden gap-2 self-stretch px-4 py-3 mt-10 w-full text-sm font-medium leading-none text-white bg-[#465FFF] rounded-lg border border-[#465FFF] border-solid shadow-sm";
 
   return (
     <div className={`${cardClass}` }>
@@ -44,7 +44,7 @@ export function PricingCard({
                   )}
                 </div>
                 <p
-                  className={`mt-3 text-base ${isPopular ? "text-white" : "text-slate-600"}`}
+                  className={`mt-3 text-base ${isPopular ? "text-white" : "text-[#475467]"}`}
                 >
                   {description}
                 </p>
@@ -67,7 +67,7 @@ export function PricingCard({
                   )}
                 </div>
                 <p
-                  className={`mt-1 text-base leading-tight ${isPopular ? "text-white" : "text-slate-600"}`}
+                  className={`mt-1 text-base leading-tight ${isPopular ? "text-white" : "text-[#475467]"}`}
                 >
                   billed {billingCycle}
                 </p>
@@ -75,7 +75,7 @@ export function PricingCard({
             </div>
           </div>
           <div
-            className={`mt-6 w-full text-base ${isPopular ? "text-white" : "text-slate-600"}`}
+            className={`mt-6 w-full text-base ${isPopular ? "text-white" : "text-[#475467]"}`}
           >
             <p>
               {title === "Enterprise Plan"

@@ -105,16 +105,16 @@ export function FeaturesSection() {
   };
 
   return (
-    <section className="flex flex-col items-center px-6 md:px-28 py-20 w-full bg-white">
+    <section className="mt-[80px] flex flex-col items-center px-6 md:px-28 py-20 w-full bg-white">
       <div className="flex flex-col text-center w-full max-w-3xl">
         <h2 className="font-[Montserrat] text-base font-semibold text-[#465FFF] tracking-wide">
           FEATURES
         </h2>
         <div className="flex flex-col items-center mt-4 w-full">
-          <h3 className="font-[Montserrat] text-3xl sm:text-3xl lg:text-5xl font-bold text-gray-900 leading-tight md:leading-[62px]">
-            Everything <span className="text-[#465FFF]">You</span> Hate About{" "}
+          <h3 className="font-[Montserrat] text-3xl sm:text-3xl lg:text-5xl font-bold text-[#101828] leading-tight md:leading-[62px]">
+            <span className='text-[#101828]'>Everything</span> <span className="text-[#465FFF]">You</span> <span className='text-[#101828]'>Hate About{" "}</span>
             <br className="hidden md:block" />
-            <span className="text-[#465FFF]">Pre Lit Intake</span>—Solved
+            <span className="text-[#465FFF]">Pre Lit Intake</span><span className='text-[#101828]'>—Solved</span>
           </h3>
           {/* <p className="font-[Source_Sans_3] mt-4 text-base md:text-lg text-[#475467] leading-relaxed">
             Let InjurySync elevate your pre-litigation workflow with powerful,
@@ -167,8 +167,8 @@ export function FeaturesSection() {
                 key={index}
                 onClick={() => setActiveTabIndex(index)}
                 className={`w-2 h-2 rounded-full transition-all ${index === activeTabIndex
-                    ? "bg-[#465FFF] w-4"
-                    : "bg-gray-300"
+                  ? "bg-[#465FFF] w-4"
+                  : "bg-gray-300"
                   }`}
                 aria-label={`View feature ${index + 1}`}
                 aria-current={index === activeTabIndex ? "true" : "false"}
@@ -178,10 +178,10 @@ export function FeaturesSection() {
         </div>
 
         {/* Feature Image */}
-        <div className="w-full rounded-2xl border-4 border-gray-300">
+        <div className="w-full rounded-2xl border-4 bg-[#F2F4F7] border-gray-300 p-3">
           <div className="flex flex-col justify-center items-center w-full bg-gray-100 rounded-2xl">
             <img
-              src="hero2.png"
+              src="hero2_4x.png"
               alt="Features illustration"
               className="object-contain max-w-full w-full h-auto rounded-lg"
             />

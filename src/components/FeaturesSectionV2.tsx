@@ -190,7 +190,7 @@ function FeaturesSectionV2() {
   };
 
   return (
-    <section className="flex flex-col items-center px-28 py-20 bg-white max-md:px-5">
+    <section className="mt-[80px] flex flex-col items-center px-28 py-20 bg-white max-md:px-5">
       <SectionTitle />
 
       {/* Desktop View - Original Layout */}

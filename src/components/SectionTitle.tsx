@@ -70,12 +70,12 @@ export default function SectionTitle() {
         <div className="flex flex-col justify-center items-center mt-4 w-full max-md:max-w-full">
         <h1 className="font-[Montserrat] font-bold text-[30px] leading-[1.3] text-center md:text-5xl">
           {/* <h1 className="text-3xl md:text-5xl font-[700] text-gray-900 leading-[62px] max-md:max-w-full max-md:text-4xl max-md:leading-10 font-[Montserrat]"> */}
-            <span>Everything </span>
+            <span  className="text-[#101828]">Everything </span>
             <span className="text-[#465FFF]">You</span>
-            <span> Hate About </span>
+            <span className="text-[#101828]"> Hate About </span>
             <br className="hidden md:block" />
             <span className="text-[#465FFF]">Case Management</span>
-            <span> —Solved</span>
+            <span className="text-[#101828]"> —Solved</span>
           </h1>
 
 

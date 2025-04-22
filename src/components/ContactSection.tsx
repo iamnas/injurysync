@@ -20,12 +20,12 @@
 //           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight text-gray-900">
 //             Contact us
 //           </h2>
-//           <p className="mt-4 text-base tracking-normal leading-6 text-slate-600">
+//           <p className="mt-4 text-base tracking-normal leading-6 text-[#475467]">
 //             Contact us today to schedule a consultation and discover how we can
 //             help you achieve your goals.
 //           </p>
 //         </div>
-//         <div className="mt-8 w-full text-lg sm:text-xl leading-tight text-slate-600">
+//         <div className="mt-8 w-full text-lg sm:text-xl leading-tight text-[#475467]">
 //           <div className="flex gap-2 items-center w-full justify-center lg:justify-start">
 //             <img
 //               src="frame.png"
@@ -145,13 +145,13 @@ export function ContactSection() {
             Contact us
           </h2>
         
-          <p className="font-[Source_Sans_3] mt-4 text-base tracking-[0.01em] leading-6 text-slate-600">
+          <p className="font-[Source_Sans_3] mt-4 text-base tracking-[0.01em] leading-6 text-[#475467]">
             <span className=" hidden md:block">Ready to transform your practice with custom solutions? <br /></span>
             Contact us today to schedule a consultation and discover how we can help you achieve your goals.
           </p>
 
         </div>
-        <div className="mt-8 w-full text-lg sm:text-xl leading-tight text-slate-600">
+        <div className="mt-8 w-full text-lg sm:text-xl leading-tight text-[#475467]">
           <div className="font-[Source_Sans_3] flex gap-2 items-center w-full justify-center lg:justify-start">
             <img
               src="frame.png"
@@ -200,7 +200,7 @@ export function ContactSection() {
           />
         </div>
 
-        <div className="mt-5 w-full">
+        <div className="mt-5 w-full font-[Montserrat]">
           <label className="font-medium text-slate-700" htmlFor="email">
             Email
           </label>
@@ -216,7 +216,7 @@ export function ContactSection() {
           />
         </div>
 
-        <div className="mt-5 w-full">
+        <div className="mt-5 w-full font-[Montserrat]">
           <label className="font-medium text-slate-700" htmlFor="message">
             Message
           </label>

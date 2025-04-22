@@ -470,105 +470,43 @@ export function HeroSection() {
           "
         />
 
-        {/* Left band image */}
+        {/* Left band 4x */}
         <div
           className="
-            absolute
-            w-[200px] md:w-[350px] lg:w-[466.67px] 
-            h-[60px] md:h-[100px] lg:h-[129.46px] 
-            top-[340px] md:top-[650px] lg:top-[730.41px]
-            left-[-60px] md:left-[-20px] lg:left-0
-            bg-[url('/leftband1.png')] 
-            bg-contain bg-no-repeat
-            hidden md:block
-            z-11
 
-            "
-        />
-
-        {/* Left band 2 */}
-        <div
-          className="
-            absolute
-            w-[200px] md:w-[350px] lg:w-[466.67px] 
-            h-[60px] md:h-[100px] lg:h-[129.46px] 
-            top-[480px] md:top-[720px] lg:top-[812.62px] 
-            left-[-10px] md:left-[-5px] lg:left-[1px]
-            bg-[url('/leftband2.png')] 
-            bg-contain bg-no-repeat
-            z-11
-
-          "
-        />
-
-        {/* Right band 1 */}
-        <div
-          className="
-            absolute
-            w-[200px] md:w-[350px] lg:w-[466.67px] 
-            h-[60px] md:h-[100px] lg:h-[129.46px] 
-            top-[410px] md:top-[410px] lg:top-[415px] 
-            right-[-185px] md:right-[-100px] lg:left-[1400px]
-            bg-[url('/rightband1.png')] 
-            bg-contain bg-no-repeat
-            z-25
-
-          "
-        />
-
-        {/* Right band 2 */}
-        <div
-          className="
-            absolute
-            w-[240px] md:w-[500px] lg:w-[680px] 
-            h-[70px] md:h-[120px] lg:h-[156.45px] 
-            top-[430px] md:top-[450px] lg:top-[475px] 
-            right-[-220px] md:right-[-150px] lg:left-[1240px]
-            bg-[url('/rightband2.png')] 
-            bg-contain bg-no-repeat
-            z-11
-
-          "
-        />
-
-        {/* Right band 3 */}
-
-        {/* <div
-          className="
-            absolute
-            w-[200px] md:w-[350px] lg:w-[466.67px] 
-            h-[60px] md:h-[100px] lg:h-[129.46px] 
-            top-[480px] md:top-[500px] lg:top-[525px] 
-            right-[-80px] md:right-[-60px] lg:left-[1550px]
-            bg-[url('/rightband3.png')] 
-            bg-contain bg-no-repeat
-            z-11
-            hidden md:block
-          "
-        /> */}
-
-        {/* Right band 3 */}
-        <div
-          className="
-    absolute
-    w-[200px] md:w-[350px] lg:w-[466.67px] 
-    h-[60px] md:h-[100px] lg:h-[129.46px] 
-    top-[480px] md:top-[500px] lg:top-[520px] 
-    right-0
-    bg-[url('/rightband3.png')] 
-    bg-contain bg-no-repeat
-    bg-right
-    z-10
-    hidden md:block
+      absolute
+      w-[673.56px] 
+      h-[225.67px] 
+      top-[710.41px] 
+      left-[1px]
+      bg-[url('left_band_4x.png')] 
+      bg-contain bg-no-repeat
+      z-10
     "
         />
+
+        {/* Right band 4x */}
+        <div
+          className="
+
+      absolute
+      w-[946.67px] 
+      h-[233.12px] 
+      top-[495px] 
+      left-[1000px]
+      bg-[url('right_band_4x.png')] 
+      bg-contain bg-no-repeat
+      z-30
+    "
+        />
+
 
       </div>
 
 
       {/* Main Content - Ensure z-index works properly with relative positioning */}
 
-      <div className="flex flex-col pt-8 md:pt-14 lg:pt-20 w-full bg-[#ECF3FF] h-auto md:h-[400px] lg:h-[475px] relative z-20">
+      <div className="flex flex-col pt-8 md:pt-14 lg:pt-20 w-full bg-[#ECF3FF] h-auto md:h-[400px] lg:h-[475px] relative z-20 mt-[80px]">
         <div className="flex flex-col items-center self-center max-w-full w-full md:w-[768px] lg:w-[1024px] px-4 md:px-8">
           <div className="flex flex-col items-center w-full text-center">
             <h1 className="font-[Montserrat] text-3xl md:text-5xl lg:text-6xl font-bold text-black leading-tight md:leading-[60px] lg:leading-[67px]">
@@ -592,7 +530,7 @@ export function HeroSection() {
             >
               Get Started
             </button>
-            <button className="w-full md:w-[160px] lg:w-[181px] h-12 flex items-center justify-center gap-2 px-5 md:px-6 lg:px-7 py-3.5 rounded-lg border border-gray-100 bg-gray-50 text-slate-700 shadow-sm hover:bg-[#F9FAFB] transition-colors">
+            <button className="w-full md:w-[160px] lg:w-[181px] h-12 flex items-center justify-center gap-2 px-5 md:px-6 lg:px-7 py-3.5 rounded-lg border border-[#D0D5DD]  text-slate-700 shadow-sm  hover:bg-[#F9FAFB] transition-colors">
               <img
                 src="play.png"
                 alt="Demo icon"
@@ -611,7 +549,7 @@ export function HeroSection() {
 
         <div className="flex flex-col justify-center items-center p-2 md:p-3 w-full bg-gray-100 rounded-xl md:rounded-2xl">
           <img
-            src="hero.png"
+            src="hero_4x.png"
             alt="Feature preview"
             className="object-contain w-full  rounded-lg aspect-auto md:aspect-[1.6] lg:aspect-[1.73]"
           />
@@ -624,3 +562,6 @@ export function HeroSection() {
     </section>
   );
 }
+
+
+

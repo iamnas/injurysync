@@ -10,7 +10,7 @@ export function Footer() {
               className="object-contain self-stretch my-auto  w-[210px] "
             />
           </div>
-          <p className="self-stretch mt-4 text-sm leading-6 text-slate-600">
+          <p className="self-stretch mt-4 text-sm leading-6 text-[#475467]">
             InjurySync is a powerful client intake and case management solution
             designed to streamline how law firms handle personal injury cases
             efficiently and securely.
@@ -41,7 +41,7 @@ export function Footer() {
 
           </div>
         </div>
-        <nav className="flex flex-wrap flex-1 shrink gap-8 justify-between items-start text-base basis-0 min-w-60 text-slate-600 max-md:max-w-full">
+        <nav className="flex flex-wrap flex-1 shrink gap-8 justify-between items-start text-base basis-0 min-w-60 text-[#475467] max-md:max-w-full">
           <div className="w-32">
             <h3 className="font-medium">Quick Links</h3>
             <ul className="mt-4 w-full">
@@ -99,7 +99,7 @@ export function Footer() {
           </div>
         </nav>
       </div>
-      <div className="flex flex-col items-start pt-8 mt-16 w-full text-sm leading-loose border-t border-slate-400 text-slate-600 max-md:mt-10 max-md:max-w-full">
+      <div className="flex flex-col items-start pt-8 mt-16 w-full text-sm leading-loose border-t border-slate-400 text-[#475467] max-md:mt-10 max-md:max-w-full">
         <p className="gap-2.5 self-stretch">
           © Copyright 2022, All Rights Reserved
         </p>

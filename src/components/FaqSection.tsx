@@ -63,13 +63,13 @@ export function FaqSection() {
             <h3 className="font-[Montserrat] text-2xl font-semibold text-gray-900 max-md:max-w-full">
               Still have questions?
             </h3>
-            <p className="font-[Source_Sans_3] mt-2 text-lg text-slate-600 max-md:max-w-full">
+            <p className="font-[Source_Sans_3] mt-2 text-lg text-[#475467] max-md:max-w-full">
               Can't find the answer you're looking for? Please chat to our
               friendly team.
             </p>
           </div>
           <div className="flex gap-4 justify-center items-start pt-4 mt-4 w-full text-sm font-medium leading-5 text-white max-md:max-w-full">
-            <button className="overflow-hidden gap-2 self-stretch px-8 py-3.5 bg-[#465FFF] rounded-lg shadow-sm max-md:px-5">
+            <button className="hover:bg-[#3641F5] shadow-[0px_4px_16px_1px_rgba(70,95,255,0.24)]  hover:shadow-none overflow-hidden gap-2 self-stretch px-8 py-3.5 bg-[#465FFF] rounded-lg  max-md:px-5">
               Contact us
             </button>
           </div>

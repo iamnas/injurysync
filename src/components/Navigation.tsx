@@ -109,12 +109,17 @@ export function Navigation() {
             </a>
           </div>
           <div className="flex gap-2 lg:gap-6 items-center text-xs lg:text-sm font-medium leading-none">
-            <button className=" border border-[#D0D5DD] py-2.5 lg:py-3.5 px-4 lg:px-7 rounded-lg shadow-sm text-slate-700">
+            <button className="hover:bg-[#F9FAFB] border border-[#D0D5DD] py-2.5 lg:py-3.5 px-4 lg:px-7 rounded-lg shadow-sm text-slate-700">
               Sign In
             </button>
-            <button className="px-4 lg:px-7 py-2.5 lg:py-3.5 text-white bg-indigo-600 rounded-lg shadow-sm">
+            <button className="px-4 lg:px-7 py-2.5 lg:py-3.5 text-white bg-[#465fff] rounded-lg  shadow-[0px_4px_16px_1px_rgba(70,95,255,0.24)] hover:bg-[#3641F5] hover:shadow-none transition-all">
               Get Started
             </button>
+            {/* <button
+              className="w-full md:w-[160px] lg:w-[180px] h-12 gap-2 px-4 lg:px-7 py-2.5 lg:py-3.5 rounded-lg bg-[#465fff] text-white shadow-[0px_4px_16px_1px_rgba(70,95,255,0.24)] hover:bg-[#3641F5] hover:shadow-none transition-all text-center font-semibold"
+            >
+              Get Started
+            </button> */}
           </div>
         </div>
       </nav>
@@ -182,6 +187,7 @@ export function Navigation() {
               <button className="w-full py-3 text-center text-white bg-indigo-600 rounded-lg shadow-sm">
                 Get Started
               </button>
+
             </div>
           </div>
         </div>

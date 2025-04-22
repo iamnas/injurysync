@@ -14,7 +14,7 @@ export function PricingSection() {
           <h2 className="font-[Montserrat] text-5xl font-semibold leading-tight text-gray-900 max-md:max-w-full max-md:text-4xl">
             Pricing That Works for You
           </h2>
-          <p className="font-[Source_Sans_3] mt-4 font-normal text-base tracking-normal text-slate-600 max-md:max-w-full">
+          <p className="font-[Source_Sans_3] mt-4 font-normal text-base tracking-normal text-[#475467] max-md:max-w-full">
             Our pricing plans are designed to accommodate your requirements.
           </p>
         </div>
