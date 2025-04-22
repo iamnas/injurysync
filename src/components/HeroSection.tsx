@@ -36,7 +36,7 @@ export function HeroSection() {
            h-[225.67px] 
            top-[598.41px] md:top-[710.41px] lg:top-[710.41px]
            left-[-120px] md:left-[1px] 
-           bg-[url('left_band_4x.png')] 
+           bg-[url('/left_band_4x.png')] 
            bg-contain bg-no-repeat
            z-10
            
@@ -53,7 +53,7 @@ export function HeroSection() {
       h-[233.12px] 
       top-[510px] md:top-[495px]  
       left-[100px] md:left-[1000px] 
-      bg-[url('right_band_4x.png')] 
+      bg-[url('/right_band_4x.png')] 
       bg-contain bg-no-repeat
       z-30
     "
