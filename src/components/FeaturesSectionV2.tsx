@@ -277,7 +277,7 @@ function FeaturesSectionV2() {
         </div>
 
         {/* Image Section - Below Feature Cards in Mobile */}
-        <div className="">
+        <div className="w-full">
           <ImageSection />
         </div>
       </div>

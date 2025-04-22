@@ -178,7 +178,7 @@ export function FeaturesSection() {
         </div>
 
         {/* Feature Image */}
-        <div className="w-full rounded-2xl border-4 bg-[#F2F4F7] border-gray-300 p-3">
+        <div className="w-full rounded-2xl border-4 bg-[#F2F4F7] border-gray-300 p-1  md:p-3">
           <div className="flex flex-col justify-center items-center w-full bg-gray-100 rounded-2xl">
             <img
               src="hero2_4x.png"
