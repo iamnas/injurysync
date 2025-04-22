@@ -146,7 +146,7 @@ export function ContactSection() {
           </h2>
         
           <p className="font-[Source_Sans_3] mt-4 text-base tracking-[0.01em] leading-6 text-slate-600">
-            Ready to transform your practice with custom solutions?
+            <span className=" hidden md:block">Ready to transform your practice with custom solutions? <br /></span>
             Contact us today to schedule a consultation and discover how we can help you achieve your goals.
           </p>
 
