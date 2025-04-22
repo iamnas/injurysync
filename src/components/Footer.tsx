@@ -4,8 +4,9 @@ export function Footer() {
       <div className="flex flex-wrap gap-36 items-start w-full max-md:max-w-full">
         <div className="flex flex-col items-start justify-start min-w-60 w-[280px]">
           <div className="flex gap-3 justify-end items-end">
+            {/* src="Logo.png" */}
             <img
-              src="Logo.png"
+             src="footer_logo.svg"
               alt="Company Logo"
               className="object-contain self-stretch my-auto  w-[210px] "
             />

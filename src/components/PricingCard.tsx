@@ -22,7 +22,7 @@ export function PricingCard({
   const textColorClass = isPopular ? "text-white" : "text-gray-900";
   const buttonClass = isPopular
     ? "  hover:border-[#E4E7EC] hover:border-1 hover:text-white  hover:bg-[#465FFF] overflow-hidden gap-2 self-stretch px-4 py-3 mt-10 w-full text-sm font-medium leading-none text-[#465FFF] bg-white rounded-lg"
-    : "shadow-[0px_4px_16px_1px_rgba(70,95,255,0.24)] hover:bg-[#3641F5] hover:shadow-none overflow-hidden gap-2 self-stretch px-4 py-3 mt-10 w-full text-sm font-medium leading-none text-white bg-[#465FFF] rounded-lg border border-[#465FFF] border-solid shadow-sm";
+    : "shadow-[0px_4px_16px_1px_rgba(70,95,255,0.24)] hover:bg-[#3641F5] hover:shadow-none overflow-hidden gap-2 self-stretch px-4 py-3 mt-10 w-full text-sm font-medium leading-none text-white bg-[#465FFF] rounded-lg border border-[#465FFF] border-solid ";
 
   return (
     <div className={`${cardClass}` }>
