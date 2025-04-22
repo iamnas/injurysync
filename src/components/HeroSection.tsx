@@ -453,17 +453,20 @@ export function HeroSection() {
       {/* Background Elements - All with lower z-index */}
       {/* <div className="flex justify-center items-center "> */}
       <div className="relative w-full">
+
+
         {/* Main background */}
         <div
           className="
             absolute
             w-full md:w-[1800px] lg:w-[2400px] 
             h-[180px] md:h-[320px] lg:h-[403.82px]
-            top-[350px] md:top-[360px] lg:top-[387px] 
+            top-[300px] md:top-[360px] lg:top-[387px] 
             left-0 md:left-[-240px] lg:left-[-480px]
             bg-[url('/background.png')] 
             bg-cover bg-center
             z-10
+            mt-15 lg:mt-0 md:mt-0
           "
         />
 
@@ -504,7 +507,7 @@ export function HeroSection() {
             absolute
             w-[200px] md:w-[350px] lg:w-[466.67px] 
             h-[60px] md:h-[100px] lg:h-[129.46px] 
-            top-[410px] md:top-[410px] lg:top-[410px] 
+            top-[410px] md:top-[410px] lg:top-[415px] 
             right-[-185px] md:right-[-100px] lg:left-[1400px]
             bg-[url('/rightband1.png')] 
             bg-contain bg-no-repeat
@@ -519,7 +522,7 @@ export function HeroSection() {
             absolute
             w-[240px] md:w-[500px] lg:w-[680px] 
             h-[70px] md:h-[120px] lg:h-[156.45px] 
-            top-[430px] md:top-[450px] lg:top-[470px] 
+            top-[430px] md:top-[450px] lg:top-[475px] 
             right-[-220px] md:right-[-150px] lg:left-[1240px]
             bg-[url('/rightband2.png')] 
             bg-contain bg-no-repeat
@@ -545,21 +548,20 @@ export function HeroSection() {
         /> */}
 
         {/* Right band 3 */}
-<div
-  className="
-  
+        <div
+          className="
     absolute
     w-[200px] md:w-[350px] lg:w-[466.67px] 
     h-[60px] md:h-[100px] lg:h-[129.46px] 
-    top-[480px] md:top-[500px] lg:top-[525px] 
+    top-[480px] md:top-[500px] lg:top-[520px] 
     right-0
     bg-[url('/rightband3.png')] 
     bg-contain bg-no-repeat
     bg-right
-    z-11
+    z-10
     hidden md:block
     "
-/>
+        />
 
       </div>
 
@@ -604,7 +606,9 @@ export function HeroSection() {
 
 
       {/* Hero Image Container - Positioned with higher z-index than main content */}
-      <div className="flex flex-col items-center self-center max-w-full w-full px-4 md:px-6 lg:px-0 md:w-[700px] lg:w-[1049px] mt-6 md:mt-0 relative z-30">
+      {/* <div className="flex flex-col items-center self-center max-w-full w-full px-4 md:px-6 lg:px-0 md:w-[700px] lg:w-[1049px] mt-6 md:mt-0 relative z-30"> */}
+      <div className="flex flex-col items-center self-center max-w-full w-full px-4 md:px-6 lg:px-0 md:w-[700px] lg:w-[1049px] mt-6 md:mt-[55px] lg:mt-0  relative z-30">
+
         <div className="flex flex-col justify-center items-center p-2 md:p-3 w-full bg-gray-100 rounded-xl md:rounded-2xl">
           <img
             src="hero.png"
