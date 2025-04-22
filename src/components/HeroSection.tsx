@@ -35,7 +35,7 @@ export function HeroSection() {
            w-[673.56px] 
            h-[225.67px] 
            top-[598.41px] md:top-[710.41px] lg:top-[710.41px]
-           left-[1px]
+           left-[-120px] md:left-[1px] 
            bg-[url('left_band_4x.png')] 
            bg-contain bg-no-repeat
            z-10
@@ -51,7 +51,7 @@ export function HeroSection() {
       absolute
       w-[946.67px] 
       h-[233.12px] 
-      top-[495px] 
+      top-[510px] md:top-[495px]  
       left-[100px] md:left-[1000px] 
       bg-[url('right_band_4x.png')] 
       bg-contain bg-no-repeat
@@ -106,7 +106,7 @@ export function HeroSection() {
 
       {/* Hero Image Container - Positioned with higher z-index than main content */}
       {/* <div className="flex flex-col items-center self-center max-w-full w-full px-4 md:px-6 lg:px-0 md:w-[700px] lg:w-[1049px] mt-6 md:mt-0 relative z-30"> */}
-      <div className="flex flex-col items-center self-center max-w-full w-full px-4 md:px-6 lg:px-0 md:w-[700px] lg:w-[1049px] mt-6 md:mt-[55px] lg:mt-0  relative z-30">
+      <div className="flex flex-col items-center self-center max-w-full w-full px-4 md:px-6 lg:px-0 md:w-[700px] lg:w-[1049px] mt-6 md:mt-[55px] lg:mt-0  relative z-30 mb-[-100px] md:mb-0">
 
         <div className="flex flex-col justify-center items-center p-2 md:p-3 w-full bg-gray-100 rounded-xl md:rounded-2xl">
           <img
