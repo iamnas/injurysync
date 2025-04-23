@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <main className="flex overflow-hidden flex-col bg-white">
+      <main className="flex overflow-hidden flex-col bg-white ">
         <Navigation />
         <HeroSection />
         <FeaturesSection />

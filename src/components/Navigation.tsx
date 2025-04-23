@@ -81,7 +81,7 @@ export function Navigation() {
   }, [isMenuOpen]);
 
   return (
-    <div className="w-full">
+    <div className="w-full ">
       {/* Desktop Navigation - Sticky - only shows at lg breakpoint and above */}
       <nav className={`hidden lg:flex justify-between items-center px-6 md:px-10 lg:px-16 xl:px-28 w-full min-h-20 fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isPastHero ? 'bg-white shadow-md' : 'bg-[#ECF3FF]'

@@ -8,7 +8,7 @@ export function PricingSection() {
   );
 
   return (
-    <section className="flex flex-col gap-16 items-center px-28 py-20 w-full bg-white max-md:px-5 max-md:max-w-full">
+    <section id="pricing" className="flex flex-col gap-16 items-center px-28 py-20 w-full bg-white max-md:px-5 max-md:max-w-full">
       <div className="flex flex-col max-w-full text-center w-[768px]">
         <div className="flex flex-col justify-center items-center w-full max-md:max-w-full">
           <h2 className="font-[Montserrat] text-5xl font-semibold leading-tight text-gray-900 max-md:max-w-full max-md:text-[30px]">

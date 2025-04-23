@@ -137,7 +137,7 @@ export function ContactSection() {
   };
 
   return (
-    <section className="flex flex-col lg:flex-row gap-8 lg:gap-16 justify-center items-center lg:items-start px-4 sm:px-6 lg:px-28 py-12 lg:py-20 bg-white">
+    <section id="contact" className="flex flex-col lg:flex-row gap-8 lg:gap-16 justify-center items-center lg:items-start px-4 sm:px-6 lg:px-28 py-12 lg:py-20 bg-white">
 
       <div className="w-full max-w-md lg:max-w-lg">
         <div className="w-full text-center lg:text-left">
