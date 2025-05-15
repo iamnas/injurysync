@@ -13,22 +13,33 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: 23.9.0
-        cache: 'pnpm'
-
-    - name: Enable and activate pnpm
+    - name: Install Node.js using NVM
       run: |
-        corepack enable
-        corepack prepare pnpm@latest --activate
+        curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+        export NVM_DIR="$HOME/.nvm"
+        [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+        nvm install 23.9.0
+        nvm use 23.9.0
+        node -v
+        npm i -g pnpm
+        pnpm -v
+      shell: bash
 
     - name: Install dependencies
-      run: pnpm install
+      run: |
+        export NVM_DIR="$HOME/.nvm"
+        [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+        nvm use 23.9.0
+        pnpm install
+      shell: bash
 
     - name: Build project
-      run: pnpm build
+      run: |
+        export NVM_DIR="$HOME/.nvm"
+        [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+        nvm use 23.9.0
+        pnpm build
+      shell: bash
 
     - name: Setup SSH
       uses: webfactory/ssh-agent@v0.8.0
