@@ -1,4 +1,4 @@
-name: Deploy to Production
+name: Deploy Static Site to AWS
 
 on:
   push:
@@ -8,52 +8,31 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    container:
-      image: node:20 # or 23 if you truly need it
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20'
-          cache: 'pnpm'
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 23.9.0
+        cache: 'pnpm'
 
-      - name: Install pnpm
-        run: npm install -g pnpm
+    - name: Install pnpm
+      run: npm install -g pnpm
 
-      - name: Install dependencies
-        run: pnpm install
+    - name: Install dependencies
+      run: pnpm install
 
-      - name: Build the project
-        run: pnpm run build
+    - name: Build project
+      run: pnpm build
 
-      - name: Prepare SSH Key
-        run: |
-          echo "$SSH_PRIVATE_KEY" > private_key.pem
-          chmod 600 private_key.pem
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+    - name: Setup SSH
+      uses: webfactory/ssh-agent@v0.8.0
+      with:
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      - name: Setup known hosts
-        run: |
-          mkdir -p ~/.ssh
-          echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
-        env:
-          SSH_KNOWN_HOSTS: ${{ secrets.SSH_KNOWN_HOSTS }}
-
-      - name: Deploy build files to EC2
-        run: |
-          scp -i private_key.pem -r ./build/* "$SSH_USER@$SSH_HOST:/var/www/react-app/build"
-        env:
-          SSH_USER: ${{ secrets.SSH_USER }}
-          SSH_HOST: ${{ secrets.SSH_HOST }}
-
-      - name: Reload NGINX
-        run: |
-          ssh -i private_key.pem "$SSH_USER@$SSH_HOST" 'sudo systemctl reload nginx'
-        env:
-          SSH_USER: ${{ secrets.SSH_USER }}
-          SSH_HOST: ${{ secrets.SSH_HOST }}
+    - name: Deploy via rsync
+      run: |
+        rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" dist/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/ubuntu/injurysync/dist
